@@ -175,7 +175,7 @@ router.get("/searchback", function(req, res){
 
 /////////////////////////////////////////front//////////////////////////////////////////////////
 
-router.get('/masajeadores/:page', async (req, res) => {
+router.get('/produnoindex/:page', async (req, res) => {
 
   var cart = new Cart(req.session.cart ? req.session.cart : {items: {}});
 
