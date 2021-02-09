@@ -13,6 +13,7 @@ const NoteSchema = new Schema({
   colorstock: String,
   talle: String,
   tallestock: String,
+  enstock: String,
   oldprice: Number,
   price: Number,
   amount: Number,

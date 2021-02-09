@@ -7,7 +7,7 @@ const NoteSchema = new Schema({
   image: String,
   imagedos: String,
   imagetres: String,
-  description: String,
+  description: String, 
   filtroprice: String,
   enstock:String,
   color: String,

@@ -11,6 +11,7 @@ const NoteSchema = new Schema({
   filtroprice:  String,
   color: String,
   colorstock: String,
+  enstock:  String,
   oldprice: Number,
   price: Number,
   amount: Number,

@@ -3,12 +3,13 @@ const { Schema } = mongoose;
 
 const NoteSchema = new Schema({
   name: String,
-  title: String,
+  title: String, 
   image: String,
   imagedos: String,
   imagetres: String,
   description: String,
   filtroprice: Number,
+  enstock: String,
   color: String,
   colorstock: String,
   talle: String,
